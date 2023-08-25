@@ -1,0 +1,7 @@
+/*Write a Sass file that creates H* tags, where ‘*’ is You must use @for statement*/
+@for $j from 1 through 5 {
+	h#{$j} {
+		font-size: #{$j}px;
+	}
+}
+
