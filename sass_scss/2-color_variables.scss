@@ -1,12 +1,17 @@
-/* changing color */
+/* assigns text color &  background color */
+$textColor: #3D3D3D;
+$backgroundColor: #6D6D6D;
+
 body {
-	color: #3D3D3D;
-	background-color: #6D6D6D;
+	color: $textColor;
+	background-color: $backgroundColor;
 }
+
 p {
-	color: #3D3D3D;
+	color: $textColor;
 }
+
 h2 {
-	background-color: #6D6D6D;
+	background-color: $backgroundColor;
 }
 
