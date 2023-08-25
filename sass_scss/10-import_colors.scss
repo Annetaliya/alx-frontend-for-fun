@@ -1,0 +1,15 @@
+/*
+Text color $red from 10-colors.scss you must use @import
+*/
+
+@import "10-colors";
+.red {
+	color: $red;
+}
+.green {
+	color: $green;
+}
+.blue {
+	color: $blue;
+}
+
